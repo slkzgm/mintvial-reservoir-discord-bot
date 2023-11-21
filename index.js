@@ -4,8 +4,8 @@ import axios from 'axios';
 import * as DiscordClient from './lib/discord/discordClient.js';
 import { createSaleEmbedMsg, createListingEmbedMsg } from './lib/discord/utils.js';
 
-let lastListingTimestamp = '1700423544';
-let lastSaleTimestamp = '1700246599';
+let lastListingTimestamp = Math.floor(Date.now() / 1000);
+let lastSaleTimestamp = Math.floor(Date.now() / 1000);
 
 const contractAddresses = {
     mintvials: '0x348fc118bcc65a92dc033a951af153d14d945312'
