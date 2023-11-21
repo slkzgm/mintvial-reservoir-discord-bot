@@ -1,0 +1,30 @@
+{
+  "collection": {
+    "name": "RTFKT - CloneX Mintvial",
+    "contractAddress": "0x348fc118bcc65a92dc033a951af153d14d945312",
+    "thumbnailBaseUrl": "https://i.seadn.io/gae/xOw5gYzZzkm83sL8ObO_wv-adMrsw5w9TkPjrJLT3c2dbGIS8DR_Qm_hsth7esBM2l3q_FOmlqzO0dR4BFquFEX5wSx-Suc82669?auto=format&dpr=1&w=100&h=100"
+  },
+  "channelIds": {
+    "baseChannel": "",
+    "listingsChannel": "1176598802472390747",
+    "salesChannel": "1176598815147565078"
+  },
+  "author": {
+    "name": "EggyWeggy",
+    "iconURL": "https://i.imgur.com/6D428QM.png",
+    "url": "https://twitter.com/lstehaye"
+  },
+  "footer": {
+    "text": "takashipom",
+    "iconURL": "https://i.imgur.com/6D428QM.png"
+  },
+  "customEmojis": {
+    "blur": "<:blur:1087398802673123469> BLUR",
+    "opensea": "<:opensea:1087398639317553213> OPENSEA",
+    "x2y2": "<:x2y2:1087399408737468466> X2Y2"
+  },
+  "embedMsgs": {
+    "salesColor": "0x00FF00",
+    "listingsColor": "0x0099FF"
+  }
+}
