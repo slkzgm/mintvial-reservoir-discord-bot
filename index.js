@@ -82,7 +82,7 @@ async function fetchSales() {
             },
             headers: {
                 'accept': '*/*',
-                'x-api-key': 'demo-api-key'
+                'x-api-key': process.env.RESERVOIR_API_KEY
             }
         });
 
@@ -104,7 +104,7 @@ async function fetchListings() {
             },
             headers: {
                 'accept': '*/*',
-                'x-api-key': 'demo-api-key'
+                'x-api-key': process.env.RESERVOIR_API_KEY
             }
         });
 
