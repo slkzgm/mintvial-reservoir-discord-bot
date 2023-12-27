@@ -22,8 +22,8 @@ async function handleSaleEvent(item) {
                 symbol: price.currency.symbol,
                 amount: price.amount.decimal
             },
-            buyer: from,
-            seller: to,
+            buyer: to,
+            seller: from,
             amount: amount.toString(),
             timestamp
         });
