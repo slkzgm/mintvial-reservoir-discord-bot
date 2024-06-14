@@ -124,8 +124,8 @@ const connect = async () => {
             await DiscordClient.readyPromise();
             if (DiscordClient.isReady()) {
                 console.log('Discord client is ready.');
-                setInterval(fetchSales, 6000);
-                setInterval(fetchListings, 6000);
+                setInterval(fetchSales, 10000);
+                setInterval(fetchListings, 10000);
             } else {
                 console.log('Error initiating discord client.');
             }
